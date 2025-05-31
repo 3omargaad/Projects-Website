@@ -26,6 +26,45 @@ body {
     font-family: "Press Start 2P", sans-serif;
 }
 
+.section_heading {
+    font-size:xx-large;
+}
+
+
+#about {
+    border-style:solid;
+    border-color: var(--cool-green);
+    margin-top: 25px;
+    margin-bottom: 25px;
+    /* background-color: var(--water-blue); */
+}
+
+#projects {
+    border-style:solid;
+    border-color: var(--cool-green);
+    margin-top: 25px;
+    margin-bottom: 25px;
+    /* background-color: var(--cool-green); */
+}
+
+
+#skills {
+    border-style:solid;
+    border-color: var(--cool-green);
+    margin-top: 25px;
+    margin-bottom: 25px;
+    /* background-color: var(--leaf-green); */
+}
+
+#contact {
+    border-style:solid;
+    border-color: var(--cool-green);
+    margin-top: 25px;
+    margin-bottom: 25px;
+    /* background-color: var(--leaf-green); */
+}
+
+
 main {
     margin-right: 20px;
     margin-left: 20px;
@@ -37,7 +76,7 @@ h1 {
     margin-top: 20px;
 }
 
-p, ul {
+p, ul, li {
     font-family: "Roboto Slab", serif;
 }
 
@@ -47,7 +86,7 @@ h2 {
     margin-top: 20px;
 }
 
-h1, h2, h3, p {
+h1, h2, h3, p, li {
     color: var(--white);
 }
 /* Navigation Bar */
@@ -90,11 +129,15 @@ h1, h2, h3, p {
     text-align: center;
 }
 
-#skill_section {
+#skill_section, #project_section {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     gap: 20px; /* Space between cards */
+}
+
+#FMI, #Smiley_PCB, #BoMB, #Project_Website {
+    list-style: none;
 }
 
 .skillset {
