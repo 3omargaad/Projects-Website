@@ -19,7 +19,12 @@ html {
 
 body {
     margin: 0;
-    background-color: var(--dark);
+    background-color: #041026FE;
+    background-image: url(https://png.pngtree.com/png-vector/20240316/ourmid/pngtree-electronic-board-pattern-png-image_11986211.png);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-blend-mode: multiply;
 }
 
 #name, h2 {
@@ -74,6 +79,17 @@ h1 {
     text-align: center;
     font-size: 3.5em;
     margin-top: 20px;
+    animation-name: wobble;
+    animation-duration: 0.5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes wobble {
+    0% { transform: rotate(0deg); }
+    20% { transform: rotate(5deg); }
+    50% { transform: rotate(0deg); }
+    75% { transform: rotate(-5deg); }
+    100% { transform: rotate(0deg); }
 }
 
 p, ul, li {
