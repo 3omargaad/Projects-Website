@@ -78,10 +78,22 @@ main {
 h1 {
     text-align: center;
     font-size: 3.5em;
-    margin-top: 20px;
+    /* margin-top: 20px;
     animation-name: wobble;
     animation-duration: 0.5s;
-    animation-iteration-count: infinite;
+    animation-iteration-count: infinite; */
+}
+
+a {
+    text-decoration: none;
+    color: var(--white);
+}
+
+.project_icon {
+    width: 150px;
+    height: 150px;
+    margin-right: 10px;
+    vertical-align: middle;
 }
 
 @keyframes wobble {
